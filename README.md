@@ -1,4 +1,4 @@
-# Cardápio Online
+# Sistema de salão de beleza
 
 Este é um projeto de um cardápio online desenvolvido em HTML, CSS, JavaScript puro e Tailwind CSS. Ele permite aos usuários visualizar itens disponíveis, adicionar itens ao carrinho e enviar o pedido por WhatsApp.
 
