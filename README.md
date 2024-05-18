@@ -1,13 +1,12 @@
 # Sistema de salão de beleza
 
-Este é um projeto de um cardápio online desenvolvido em HTML, CSS, JavaScript puro e Tailwind CSS. Ele permite aos usuários visualizar itens disponíveis, adicionar itens ao carrinho e enviar o pedido por WhatsApp.
+Este é um projeto de um sistema marcação de serviços e horário online voltado para salões de beleza, barbearia etc, desenvolvido em HTML, CSS, JavaScript puro e Tailwind CSS. Ele permite aos usuários visualizar itens disponíveis, adicionar itens ao carrinho e enviar o pedido por WhatsApp.
 
 
 # Funcionalidades
 
-* Visualização de itens do cardápio.
+* Visualização de itens dos serviços prestados.
 * Verificação do status de abertura ou fechamento do estabelecimento.
-* Adição de itens ao carrinho.
 * Finalização do pedido com envio via WhatsApp.
   
 # Como Usar
@@ -17,7 +16,7 @@ Clone este repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 1. Abra o arquivo index.html em seu navegador web.
-2. Navegue pelo cardápio, adicione itens ao carrinho e finalize o pedido.
+2. Navegue pelo app, adicione itens ao carrinho e finalize o pedido.
 3. Ao finalizar o pedido, você será redirecionado para o WhatsApp para enviar o pedido ao número desejado.
 
 # Requisitos
