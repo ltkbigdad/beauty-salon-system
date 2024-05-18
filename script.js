@@ -42,7 +42,7 @@ function addToCart(name, price){
     const existingItem = cart.find(item => item.name === name)
     
     if(existingItem){
-        existingItem.quantity += 1;                 
+        // existingItem.quantity += 1;                 
         return;
     } else {
         cart.push({
@@ -67,8 +67,7 @@ function updateCartModal() {
         cartItemElement.innerHTML = `
             <div>
                 <div>
-                    <p class="font-bold">${item.name}</p>
-                    <p>Qtd: ${item.quantity}</p>
+                    <p class="font-bold">${item.name}</p>                   
                     <p class="font-medium mt-2">R$ ${item.price.toFixed(2)}</p>
                 </div>
 
@@ -160,14 +159,14 @@ checkoutBtn.addEventListener("click", function(){
 
     const cartItens = cart.map((item) => {
         return (
-            `${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price} |`
+            `${item.name} Preço: R$${item.price} |`
         )
     }).join("")
 
     const message = encodeURIComponent(cartItens)
     const phone = "24974035564"
 
-    window.open(`https://wa.me/${phone}?text=${message} // Endereço: ${addressInput.value}`, "_blank")
+    window.open(`https://wa.me/${phone}?text=${message}  Data e hora: ${addressInput.value}`, "_blank")
 
     cart = []
     updateCartModal()
